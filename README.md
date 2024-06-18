@@ -83,7 +83,7 @@ Use FastAPI Swagger UI - http://127.0.0.1:8000/docs
 - http://127.0.0.1:8000/user/update/{user_id}/ - update user with a specific ID
 - http://127.0.0.1:8000/user/delete/{user_id}/ - delete user with a specific ID
 - http://127.0.0.1:8000/me/ - information about the current user
-- http://127.0.0.1:8000/request/all/ - information about all requests
+- http://127.0.0.1:8000/request/all/ - information about all requests according to the role
 - http://127.0.0.1:8000/request/{request_id}/ - information about one request with a specific ID
-- http://127.0.0.1:8000/request/create/ - creating new request 
+- http://127.0.0.1:8000/request/create/ - creating new request (bot ID must exist and be in chat with chat ID)
 - http://127.0.0.1:8000/request/delete/ - delete request with a specific ID
