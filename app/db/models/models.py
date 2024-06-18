@@ -55,7 +55,11 @@ class Request(Base):
     chat_id = Column(String(250), nullable=False)
     message = Column(String(550))
     response = Column(JSON)
-    owner_id = Column(UUID(as_uuid=True), ForeignKey("users.id"), nullable=False)
+    owner_id = Column(
+        UUID(as_uuid=True),
+        ForeignKey("users.id"),
+        nullable=False
+    )
 
     owner = relationship(
         "User",

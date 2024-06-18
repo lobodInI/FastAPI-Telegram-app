@@ -40,7 +40,10 @@ class RequestRepository(BaseRepository[Request]):
 
         return requests
 
-    async def get_all_request_for_manager(self, manager_id: str) -> list[Request]:
+    async def get_all_request_for_manager(
+            self,
+            manager_id: str
+    ) -> list[Request]:
         query = (
             select(self.model)
             .join(User, self.model.owner_id == User.id)

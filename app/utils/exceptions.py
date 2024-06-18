@@ -57,4 +57,6 @@ class RequestNotFoundException(ObjectNotFound):
 
 class AccessRequestException(Exception):
     def __init__(self, attribute_name: str, attribute_value: str) -> None:
-        super().__init__(f"No access to request from {attribute_name}: {attribute_value}")
+        super().__init__(
+            f"No access to request from {attribute_name}: {attribute_value}"
+        )
