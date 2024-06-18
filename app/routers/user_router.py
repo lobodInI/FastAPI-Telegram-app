@@ -56,7 +56,7 @@ async def create_user(
 
 
 @router.put(
-    "/user/{user_id}/",
+    "/user/update/{user_id}/",
     response_model=user_schemas.UserDetail
 )
 async def update_user(
@@ -72,7 +72,7 @@ async def update_user(
     )
 
 
-@router.delete("/user/{user_id}/")
+@router.delete("/user/delete/{user_id}/")
 async def delete_user(
         user_id: str,
         user_service: UserService = Depends(get_user_service),
