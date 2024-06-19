@@ -87,3 +87,9 @@ Use FastAPI Swagger UI - http://127.0.0.1:8000/docs
 - http://127.0.0.1:8000/request/{request_id}/ - information about one request with a specific ID
 - http://127.0.0.1:8000/request/create/ - creating new request (bot ID must exist and be in chat with chat ID)
 - http://127.0.0.1:8000/request/delete/ - delete request with a specific ID
+
+## Loading test data
+
+```
+python -m app.dump_test_data
+```

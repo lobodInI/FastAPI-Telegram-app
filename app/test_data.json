@@ -1,0 +1,216 @@
+{
+  "users": [
+    {
+      "id": "ae6411d3-c8de-413d-65aa-a5d233c0f7a0",
+      "username": "user1",
+      "email": "user1@email.com",
+      "password": "password123",
+      "role": "user",
+      "manager_id": null
+    },
+    {
+      "id": "8af8ff77-cc29-4d61-bb54-aacd7f553df0",
+      "username": "user2",
+      "email": "user2@mail.com",
+      "password": "password123",
+      "role": "user",
+      "manager_id": null
+    },
+    {
+      "id": "5af8ff77-cc29-4a61-bb54-bbcd7f553776",
+      "username": "manager1",
+      "email": "manager1@mail.com",
+      "password": "password123",
+      "role": "manager",
+      "manager_id": null
+    },
+    {
+      "id": "1bf8ff77-a429-4a61-bb54-bbcd7f5530cb",
+      "username": "user3",
+      "email": "user3@mail.com",
+      "password": "password123",
+      "role": "user",
+      "manager_id": "5af8ff77-cc29-4a61-bb54-bbcd7f553776"
+    },
+    {
+      "id": "987bff77-a429-4a61-bb54-bbcd7f55123f",
+      "username": "user4",
+      "email": "user4@mail.com",
+      "password": "password123",
+      "role": "user",
+      "manager_id": "5af8ff77-cc29-4a61-bb54-bbcd7f553776"
+    },
+    {
+      "id": "ab3cff77-a429-4a61-bb54-bbcd7f5544aa",
+      "username": "admin",
+      "email": "admin@mail.com",
+      "password": "password123",
+      "role": "admin",
+      "manager_id": null
+    }
+  ],
+  "requests": [
+    {
+      "id": "89371e32-3adb-4dc3-a9b0-edb7b8c50e69",
+      "bot_token": "7023866373:AAE9BvSvvoj1PNLeNTlWPrT1DqAiT2vGOlQ",
+      "chat_id": "-1002187369636",
+      "message": "Hello project!",
+      "response": {
+        "ok": true,
+        "result": {
+          "message_id": 54,
+          "from": {
+            "id": 7023866373,
+            "is_bot": true,
+            "first_name": "test101",
+            "username": "fasttest101_bot"
+          },
+          "chat": {
+            "id": -1002187369636,
+            "title": "fasttest102",
+            "username": "fasttest102",
+            "type": "supergroup"
+          },
+          "date": 1718716519,
+          "text": "Hello project!"
+        }
+      },
+      "owner_id": "ae6411d3-c8de-413d-65aa-a5d233c0f7a0"
+    },
+    {
+      "id": "7d6f8ca2-4933-42c1-c8c2-d42cc861daa6",
+      "bot_token": "7023866373:AAE9BvSvvoj1PNLeNTlWPrT1DqAiT2vGOlQ",
+      "chat_id": "-1002187369636",
+      "message": "FastAPI project is work!",
+      "response": {
+        "ok": true,
+        "result": {
+          "message_id": 55,
+          "from": {
+            "id": 7023866373,
+            "is_bot": true,
+            "first_name": "test101",
+            "username": "fasttest101_bot"
+          },
+          "chat": {
+            "id": -1002187369636,
+            "title": "fasttest102",
+            "username": "fasttest102",
+            "type": "supergroup"
+          },
+          "date": 1718716612,
+          "text": "FastAPI project is work!"
+        }
+      },
+      "owner_id": "8af8ff77-cc29-4d61-bb54-aacd7f553df0"
+    },
+    {
+      "id": "11ce1e32-3adb-4dc3-a9b0-edb7b8c511ce",
+      "bot_token": "7023866373:AAE9BvSvvoj1PNLeNTlWPrT1DqAiT2vGOlQ",
+      "chat_id": "-1002187369636",
+      "message": "Welcome to Ukraine!",
+      "response": {
+        "ok": true,
+        "result": {
+          "message_id": 54,
+          "from": {
+            "id": 7023866373,
+            "is_bot": true,
+            "first_name": "test101",
+            "username": "fasttest101_bot"
+          },
+          "chat": {
+            "id": -1002187369636,
+            "title": "fasttest102",
+            "username": "fasttest102",
+            "type": "supergroup"
+          },
+          "date": 1718716519,
+          "text": "Welcome to Ukraine!"
+        }
+      },
+      "owner_id": "5af8ff77-cc29-4a61-bb54-bbcd7f553776"
+    },
+    {
+      "id": "22db1e32-3adb-4dc3-a9b0-edb7b8c522db",
+      "bot_token": "7023866373:AAE9BvSvvoj1PNLeNTlWPrT1DqAiT2vGOlQ",
+      "chat_id": "-1002187369636",
+      "message": "Python is amazing!",
+      "response": {
+        "ok": true,
+        "result": {
+          "message_id": 54,
+          "from": {
+            "id": 7023866373,
+            "is_bot": true,
+            "first_name": "test101",
+            "username": "fasttest101_bot"
+          },
+          "chat": {
+            "id": -1002187369636,
+            "title": "fasttest102",
+            "username": "fasttest102",
+            "type": "supergroup"
+          },
+          "date": 1718716519,
+          "text": "Python is amazing!"
+        }
+      },
+      "owner_id": "1bf8ff77-a429-4a61-bb54-bbcd7f5530cb"
+    },
+    {
+      "id": "33df1e32-3adb-4dc3-a9b0-edb7b8c533df",
+      "bot_token": "7023866373:AAE9BvSvvoj1PNLeNTlWPrT1DqAiT2vGOlQ",
+      "chat_id": "-1002187369636",
+      "message": "fo to coffee",
+      "response": {
+        "ok": true,
+        "result": {
+          "message_id": 54,
+          "from": {
+            "id": 7023866373,
+            "is_bot": true,
+            "first_name": "test101",
+            "username": "fasttest101_bot"
+          },
+          "chat": {
+            "id": -1002187369636,
+            "title": "fasttest102",
+            "username": "fasttest102",
+            "type": "supergroup"
+          },
+          "date": 1718716519,
+          "text": "fo to coffee"
+        }
+      },
+      "owner_id": "987bff77-a429-4a61-bb54-bbcd7f55123f"
+    },
+    {
+      "id": "44ea1e32-3adb-4dc3-a9b0-edb7b8c544ea",
+      "bot_token": "7023866373:AAE9BvSvvoj1PNLeNTlWPrT1DqAiT2vGOlQ",
+      "chat_id": "-1002187369636",
+      "message": "Hello everyone, I'm admin!",
+      "response": {
+        "ok": true,
+        "result": {
+          "message_id": 54,
+          "from": {
+            "id": 7023866373,
+            "is_bot": true,
+            "first_name": "test101",
+            "username": "fasttest101_bot"
+          },
+          "chat": {
+            "id": -1002187369636,
+            "title": "fasttest102",
+            "username": "fasttest102",
+            "type": "supergroup"
+          },
+          "date": 1718716519,
+          "text": "Hello everyone, I'm admin!"
+        }
+      },
+      "owner_id": "ab3cff77-a429-4a61-bb54-bbcd7f5544aa"
+    }
+  ]
+}
